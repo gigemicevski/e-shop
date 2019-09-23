@@ -44,6 +44,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 75%;
+   
 }
 
 .box{
@@ -61,3 +62,4 @@ body{
     width: 100%;
     padding: 10px;
 }
+

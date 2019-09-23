@@ -1,0 +1,63 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{
+    background-color: rgb(230, 216, 216);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.center-menu{
+    padding: 20px;
+}
+
+.center-menu input{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.center-menu button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.right-menu{
+    padding: 20px;
+}
+
+.right-menu i{
+    padding: 5px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.box{
+    width: 25%;
+    
+}
+.main{
+    display: flex;
+}
+
+.wrapper-2{
+    width: 25%;
+}
+.shop button{
+    width: 100%;
+    padding: 10px;
+}

@@ -52,6 +52,14 @@ body{
     width: 25%;
     
 }
+.down-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-box button{
+    padding: 10px;
+}
 .main{
     display: flex;
 }
@@ -62,6 +70,10 @@ body{
 .shop button{
     width: 100%;
     padding: 10px;
+}
+
+.shop-items{
+list-style-type: none;
 }
 
 .popup-wrapper{

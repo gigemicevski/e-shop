@@ -1,4 +1,4 @@
-var box = document.querySelector(".box");
+var box = document.querySelector(".box-1");
 var popup = document.querySelector(".popup-wrapper");
 const close = document.querySelector(".popup-close");
 
@@ -8,4 +8,16 @@ box.addEventListener('click', () => {
 
 close.addEventListener('click', () => {
     popup.style.display = 'none';
+});
+
+var box1 = document.querySelector(".box-2");
+var popup1 = document.querySelector(".pop1");
+const close1 = document.querySelector(".pop1000");
+
+box1.addEventListener('click', () => {
+    popup1.style.display = 'block';
+});
+
+close1.addEventListener('click', () => {
+    popup1.style.display = 'none';
 });
